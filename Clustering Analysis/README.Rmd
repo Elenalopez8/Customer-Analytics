@@ -1,0 +1,37 @@
+---
+title: "README file for cluster analysis project"
+author: "Elena Lopez"
+date: "25/07/2020"
+output: html_document
+---
+
+# Cluster Analysis
+
+## Objective
+The goal is to identify an optimal number of clusters to generate insights on behaviours and preferences of credit card users.
+
+To do this, different clustering algorithms have been tested to choose the most appropiate for the current data.  
+
+
+## Dataset
+Dataset was obtained from Kaggle. The dataset can be found in this link: https://www.kaggle.com/ainslie/credit-card-data-clustering-analysis/data
+The dataset contains 18 columns and 8950 rows.
+Firstly, we have started with data preprocessing. Than, we applied clustering algorithms. After comparing these clustering models than, we decided to use K-Means as the model. Than, we divided the data into seven clusters, because seven clusters can be easily used to determine the behaviours of customers. However, each of the clusters have their own characteristics.
+
+
+## Key steps
+1. Conduct data preprocessing to prepare dataset for clustering: missing values, outliers, standardization, normalization. 
+2. Apply 4 different clustering algorithms:
+      - A. K-means
+      - B. Hierarchical clustering
+      - C. DBSCAN
+      - D. Gaussian Mixture Model (GMM)
+3. Compare results of different algorithms using assessment metrics: Silhouette coefficient, Davies Boulding
+4. Apply K-means, the most optimal algorithm and generate 6 clusters.
+5. Conduct clustering analysis to determine characteristics and preferences of the 6 clusters. 
+6. Generate final insights
+
+
+## References
+- https://realpython.com/k-means-clustering-python/
+- https://medium.com/@mbektas/customer-segmentation-with-clustering-algorithms-in-python-be2e021035a
