@@ -16,7 +16,6 @@ To do this, different clustering algorithms have been tested to choose the most 
 ## Dataset
 Dataset was obtained from Kaggle. The dataset can be found in this link: https://www.kaggle.com/ainslie/credit-card-data-clustering-analysis/data
 The dataset contains 18 columns and 8950 rows.
-Firstly, we have started with data preprocessing. Than, we applied clustering algorithms. After comparing these clustering models than, we decided to use K-Means as the model. Than, we divided the data into seven clusters, because seven clusters can be easily used to determine the behaviours of customers. However, each of the clusters have their own characteristics.
 
 
 ## Key steps
